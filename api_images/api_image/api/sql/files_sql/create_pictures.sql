@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS pictures (
+    id VARCHAR(36) PRIMARY KEY,
+    path VARCHAR(300),
+    date TIMESTAMP
+);
